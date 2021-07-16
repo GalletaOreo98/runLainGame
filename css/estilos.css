@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Nintendo';
+    src: url(/fuentesLetras/Nintendo-DS-BIOS.ttf);
+}
+html{
+    font-family: 'Nintendo';  
+    font-size: 40px;
+    color: white;
+}
+input.botonEnviar{
+    border-radius: 5px;
+    width: 25%;
+    padding: 5px;
+    background-color:#8c62ff;
+    color: rgb(255, 255, 255);
+    width: 20%;
+}
+p.nombre{
+    width: 25%;
+    margin-bottom: 5px;
+    color: rgb(255, 0, 0);
+}
+
+input.botonEnviar:hover {
+    background-color: #7442ff;
+  }
+  
+  input.botonEnviar:disabled,
+  button[disabled]{
+    border: 1px solid #000000;
+    background-color: #0c0041;
+    color: #0c0041;
+  }
